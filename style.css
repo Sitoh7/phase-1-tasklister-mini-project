@@ -7,7 +7,9 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  /* background: linear-gradient(pink, violet); */
+  background: linear-gradient(lime, green);
+  text-align: center;
 }
 
 button {
@@ -34,4 +36,10 @@ button {
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+}
+
+
+#printButton{
+  font-size: 1.2em;
+  border-radius: 5px;
 }
